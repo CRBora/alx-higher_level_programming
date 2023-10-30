@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 str = "Holberton School"
-print(str, end="")
-print(str, end="")
-print(str)
-print(str[0:10])
+split_str = str[0:10]
+print(str + str + str)
+print(split_str)
