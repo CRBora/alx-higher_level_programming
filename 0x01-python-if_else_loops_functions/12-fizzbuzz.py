@@ -2,14 +2,15 @@
 
 def fizzbuzz():
 
-    for l in range(1, 101):
-        if l % 3 == 0 and l % 5 != 0:
+    for num in range(1, 101):
+        if num % 3 == 0 and num % 5 != 0:
             print(" Fizz", end="")
-        elif l % 5 == 0 and l % 3 != 0:
+        elif num % 5 == 0 and num % 3 != 0:
             print(" Buzz", end="")
-        elif l % 3 == 0 and l % 5 == 0:
+        elif num % 3 == 0 and num % 5 == 0:
             print(" FizzBuzz", end="")
-        elif l == 1:
-            print (l, end="")
+        elif num == 1:
+            print(num, end="")
         else:
-            print(f" {l}", end="")
+            print(f" {num}", end="")
+    print(" ")
