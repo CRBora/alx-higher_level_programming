@@ -9,9 +9,9 @@ if __name__ == "__main__":
         arg_len = len(argv) - 1
 
         if arg_len == 1:
-            print("{} argument".format(arg_len))
+            print("{} argument:".format(arg_len))
         else:
-            print("{} arguments".format(arg_len))
+            print("{} arguments:".format(arg_len))
 
 
         for l, arg in enumerate(argv[1: ], start=1):
