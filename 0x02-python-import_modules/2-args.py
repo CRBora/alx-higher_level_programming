@@ -13,8 +13,7 @@ if __name__ == "__main__":
         else:
             print("{} arguments:".format(arg_len))
 
-
-        for l, arg in enumerate(argv[1: ], start=1):
+        for l, arg in enumerate(argv[1:], start=1):
             print("{}: {}".format(l, arg))
 
     else:
