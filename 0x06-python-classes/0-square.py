@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-class Square:
-    """This class defines a square
+"""This module defines the Square class."""
 
-    Attributes:
-        pass: An empty block.
-    """
+class Square:
+    """This class represents a square"""
     pass
-s = Square()
-print(s)
