@@ -16,8 +16,8 @@ class Rectangle:
             TypeError: if width or height is not an integer.
             ValuError: if width or height is less than 0.
         """
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     def width(self):
         """Retrieve the width of the rectangle."""
@@ -38,8 +38,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         elif value < 0:
             raise ValueError("width must be >= 0")
-        else:
-            self.__width = value
+        self.__width = value
 
     def height(self):
         """Retrieve the height of the rectanlge."""
@@ -61,5 +60,4 @@ class Rectangle:
             raise TypeError("height must be an integer")
         elif value < 0:
             raise ValueError("heigh must be >= 0")
-        else:
-            self.__height = value
+        self.__height = value
